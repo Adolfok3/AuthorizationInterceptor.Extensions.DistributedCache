@@ -54,4 +54,4 @@ jobs:
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.github_token }}
-        path-to-lcov: tests/AuthorizationInterceptor.Extensions.DistributedCache.Tests/TestResults/coverage.info
+        path-to-lcov: tests/TestResults/coverage.info
